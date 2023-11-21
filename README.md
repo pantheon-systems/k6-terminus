@@ -2,7 +2,7 @@
 K6 extension to execute the terminus commands in K6 test scripts
 
 ### Install K6:
-    `go install go.k6.io/xk6/cmd/xk6@latest`
+    go install go.k6.io/xk6/cmd/xk6@latest
 
 ### Compile the binary with the extension:
     xk6 build --with xk6-compare=.
