@@ -1,4 +1,4 @@
-module xk6-terminus
+module github.com/pantheon-systems/k6-terminus
 
 go 1.19
 
