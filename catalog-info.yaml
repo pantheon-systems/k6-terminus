@@ -1,0 +1,11 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: k6-terminus
+  description: K6 extension to execute the terminus commands in K6 test scripts
+spec:
+  type: service
+  # one of: experimental, mature, deprecated
+  lifecycle: mature
+  owner: qa
