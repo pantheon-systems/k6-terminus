@@ -1,11 +1,13 @@
+# Managed by github-terraform — do not edit manually
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: k6-terminus
-  description: K6 extension to execute the terminus commands in K6 test scripts
+  name: "k6-terminus"
+  description: "K6 extension to execute the terminus commands in K6 test scripts"
+  annotations:
+    "backstage.io/techdocs-ref": "dir:docs/"
 spec:
-  type: service
-  # one of: experimental, mature, deprecated
-  lifecycle: mature
-  owner: qa
+  type: "plugin"
+  lifecycle: "mature"
+  owner: "quality-engineering"
