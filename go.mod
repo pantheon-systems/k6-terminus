@@ -3,7 +3,7 @@ module github.com/pantheon-systems/k6-terminus
 go 1.26.0
 
 require (
-	github.com/sirupsen/logrus v1.9.3
+	github.com/sirupsen/logrus v1.10.2
 	go.k6.io/k6 v0.48.0
 )
 
